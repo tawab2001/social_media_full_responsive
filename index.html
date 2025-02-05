@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand nav-link navbar-brand" href="#">
+            <i class="fa fa-home me-5"></i> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link me-5" href="#"> 
+                        <i class="fa fa-globe"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5" href="#">  
+                        <i class="fa fa-user"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link me-5" href="#">  
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle me-xxl-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-bell"></i><span class="badge bg-success">3</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">One new friend request</a></li>
+                        <li><a class="dropdown-item" href="#">MOHAMED Doe posted on your wall</a></li>
+                        <li><a class="dropdown-item" href="#">Tarek likes your post</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="image/me.jpg" class="rounded-circle" style="height:23px;width:23px" alt="Avatar"> My Account
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container mt-4"> 
+    <div class="row">
+        <!-- Left Column (Profile) -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card rounded-3">
+                <div class="card-body">
+                    <h4 class="text-center">My Profile</h4>
+                    <p class="text-center">
+                        <img src="/image/me.jpg" class="rounded-circle" style="height:106px;width:106px" alt="Avatar">
+                    </p>
+                    <hr>
+                    <p><i class="fa fa-pencil fa-fw me-2 text-primary"></i> AI , full stack python</p>
+                    <p><i class="fa fa-home fa-fw me-2 text-primary"></i> cairo, Egypt</p>
+                    <p><i class="fa fa-birthday-cake fa-fw me-2 text-primary"></i> novamber 20, 2001</p>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded-3">
+                <div class="card-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa fa-circle-o-notch fa-fw me-2"></i> My Groups
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Some text..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa fa-calendar-check-o fa-fw me-2"></i> My Events
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Some other text..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <i class="fa fa-users fa-fw me-2"></i> My Photos and certificat 
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <img src="/image/Coursera 0001.jpg" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <img src="/image/Coursera.jpg" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <img src="image/CCNA.jpg" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <img src="image/me2.jpg" class="img-fluid rounded">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <img src="image/me3.jpg" class="img-fluid rounded">
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card rounded-3 d-none d-md-block">
+                <div class="card-body">
+                    <p>Interests</p>
+                    <p>
+                        <span class="badge bg-primary">News</span>
+                        <span class="badge bg-secondary">ITI</span>
+                        <span class="badge bg-success">Labels</span>
+                        <span class="badge bg-danger">Games</span>
+                        <span class="badge bg-warning">Friends</span>
+                        <span class="badge bg-info">programiing</span>
+                        <span class="badge bg-light">Friends</span>
+                        <span class="badge bg-dark">Food</span>
+                        <span class="badge bg-primary">Design</span>
+                        <span class="badge bg-secondary">Art</span>
+                        <span class="badge bg-success">Photos</span>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="container mt-3 p-3 border rounded-3 bg-light border-secondary position-relative d-none d-sm-block alert alert-info alert-dismissible fade show" id="profileAlert">
+                <button type="button" class="btn-close  top-0 end-0 m-2" data-bs-dismiss="alert" aria-label="Close"></button>
+                <p><strong>Hey!</strong></p>
+                <p>People are looking at your profile. Find out who.</p>
+            </div>
+            <div class="alert alert-info alert-dismissible fade show" role="alert" id="profileAlert">
+                <strong>Hey!</strong> People are looking at your profile. Find out who.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+              
+        </div>
+
+        <!-- Middle Column (Main Posts Section) -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Social Media</h6>
+                    <div contenteditable="true" class="form-control mb-2">Status: Feeling Blue</div>
+                    <button type="button" class="btn btn-primary"><i class="fas fa-pencil-alt"></i> &nbsp;Post</button>
+                </div>
+            </div>
+
+            <!-- Post 1 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <img src="image/pro.jpeg" alt="Avatar" class="rounded-circle mr-3" style="width:60px">
+                    <span class="float-right text-muted">1 min</span>
+                    <h4>omar</h4>
+                    <hr>
+                    <p>🔹 What is Responsive Web Design? 🌍📱
+
+                        Responsive web design ensures that a website looks and functions well on all screen sizes—desktops, tablets, and smartphones. It adapts layouts, images, and content dynamically to provide the best user experience.
+                        
+                        🎯 Key Features of Responsive Design:
+                        ✅ Fluid Grid System: Uses flexible columns and percentages instead of fixed widths.
+                        ✅ Flexible Images: Automatically resize images to fit different screen sizes.
+                        ✅ Media Queries: CSS rules that apply styles based on screen width.
+                        ✅ Mobile-First Approach: Prioritizes mobile-friendly design before scaling up to larger screens.
+                        
+                        🚀 Tools for Responsive Design:
+                        🔹 Bootstrap – Pre-built grid system and components.
+                        🔹 CSS Flexbox & Grid – Modern layout techniques.
+                        🔹 Viewport Meta Tag – Essential for mobile optimization.
+                        🔹 Google Mobile-Friendly Test – Check your site’s responsiveness.
+                        
+                        💡 Why is responsiveness important?
+                        It improves user experience, boosts SEO rankings, and ensures your website works seamlessly on any device!</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="image/responsive.webp" class="img-fluid mb-2" alt="Northern Lights">
+                        </div>
+
+                    </div>
+                    <button type="button" class="btn btn-success mr-2"><i class="fas fa-thumbs-up"></i> &nbsp;Like</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-comment"></i> &nbsp;Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 2 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <img src="image/pro.jpeg" alt="Avatar" class="rounded-circle mr-3" style="width:60px">
+                    <span class="float-right text-muted">12min</span>
+                    <h4>Gad</h4>
+                    <hr>
+                    <p>🚀 Python in Backend Development: Powering the Web Efficiently 🐍
+
+                        Python is widely used in backend development, providing a solid foundation for building scalable and high-performance web applications. Here’s why Python is a great choice for the backend:
+                        
+                        ✅ Frameworks: Django, Flask, and FastAPI make backend development fast and efficient.
+                        ✅ Database Integration: Works seamlessly with PostgreSQL, MySQL, MongoDB, and more.
+                        ✅ Scalability: Suitable for small projects and large enterprise applications.
+                        ✅ Security: Built-in security features in frameworks like Django protect against common threats.
+                        ✅ API Development: FastAPI is optimized for creating RESTful APIs with high performance.
+                        
+                        If you're diving into backend development, Python offers the flexibility and power to build anything from small web apps to large-scale systems!
+                        
+                        💡 What backend framework do you prefer? Let's discuss in the comments! 🚀</p>
+                    <button type="button" class="btn btn-success mr-2"><i class="fas fa-thumbs-up"></i> &nbsp;Like</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-comment"></i> &nbsp;Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 3 -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <img src="image/pro2.jpeg" alt="Avatar" class="rounded-circle mr-3" style="width:60px">
+                    <span class="float-right text-muted">30 min</span>
+                    <h4>Mohamed</h4>
+                    <hr>
+                    <p>🚀 Machine Learning: Transforming Data into Intelligence 🤖
+
+                        Machine learning (ML) is revolutionizing industries, enabling systems to learn from data and make intelligent decisions. From recommendation systems to predictive analytics, ML is everywhere!
+                        
+                        🔹 Supervised Learning – Teaching models using labeled data.
+                        🔹 Unsupervised Learning – Discovering patterns in unlabeled data.
+                        🔹 Reinforcement Learning – Learning through rewards and penalties.
+                        
+                        💡 Why ML Matters?
+                        ✅ Automates complex decision-making
+                        ✅ Enhances accuracy and efficiency
+                        ✅ Powers AI-driven applications
+                        
+                        If you're starting with ML, focus on Python, TensorFlow, and Scikit-learn! 🚀
+                        
+                        What’s your favorite ML application? Let’s discuss! 👇 #MachineLearning #AI #DataScience</p>
+                        <div id="postSlider" class="carousel slide mb-3 " data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="image/types-of-machine-learning1.webp" class="d-block w-100 " style="height: 300px;" alt="Slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/Reinforcement-Learning-Algorithms-1024x795.webp" class="d-block w-100 h-200" style="height: 300px; " alt="Slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="image/Unsupervised-learning.webp" class="d-block w-100 h-200" style="height: 300px;" alt="Slide 3">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#postSlider" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#postSlider" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                            </div>
+                    <button type="button" class="btn btn-success mr-2"><i class="fas fa-thumbs-up"></i> &nbsp;Like</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-comment"></i> &nbsp;Comment</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column (Upcoming Events & Friend Requests) -->
+        <div class="col-12 col-sm-12 col-md-4">
+            <!-- Upcoming Events -->
+            <div class="card mb-4 text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Upcoming Events</h5>
+                    <img src="image/faces-machine-learning-types-of-machine-learning_0.webp" class="img-fluid rounded mb-2" alt="Event">
+                    <p><strong>Holiday</strong></p>
+                    <p>Friday 15:00</p>
+                    <button class="btn btn-light w-100">Info</button>
+                </div>
+            </div>
+        
+            <!-- Friend Requests -->
+            <div class="card mb-4 text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Friend Request</h5>
+                    <img src="image/pro2.jpeg" class="rounded-circle mb-2" alt="Avatar">
+                    <p><strong>Jane Doe</strong></p>
+                    <div class="row gx-2">
+                        <div class="col">
+                            <button class="btn btn-success w-100"><i class="fa fa-check"></i></button>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-danger w-100"><i class="fa fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Ads Section -->
+            <div class="card mb-4 text-center">
+                <div class="card-body">
+                    <p class="mb-0">ADS</p>
+                </div>
+            </div>
+        
+            <!-- Icon Section -->
+            <div class="card text-center">
+                <div class="card-body">
+                    <i class="fa fa-bug fa-3x text-danger"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+<footer class="container-fluid bg-secondary text-white text-center py-3">
+    <h5>Footer</h5>
+</footer>
+<footer class="container-fluid bg-dark text-white text-center py-3">
+    <p>Powered by <a href="https://www.linkedin.com/in/ahmed-m-tawab/" target="_blank" class="text-light">Tawab</a></p>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+   
+          
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
